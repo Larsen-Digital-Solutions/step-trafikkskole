@@ -1,0 +1,29 @@
+{
+  "_kilde": "TABS kursoversikt. officeId 1253 (Drammen) / 765 (Røyken). Live-API: https://api.tabs.no/api/v2/courses?format=json&officeId=1253 – krever Referer-header og tillater ikke CORS fra annet domene. Oppdater listen manuelt, eller hent via egen proxy ved hosting.",
+  "_oppdatert": "2026-06-29",
+  "avdelinger": {
+    "drammen": {
+      "navn": "Drammen",
+      "sted": "Hotvetveien vest 49, 3023 Drammen",
+      "officeId": 1253,
+      "kalender": "https://stepdrammen.tabs.no/kalender",
+      "kursoversikt": "https://stepdrammen.tabs.no/kursoversikt"
+    },
+    "royken": {
+      "navn": "Røyken",
+      "sted": "Spikkestadveien 118, 3430 Spikkestad",
+      "officeId": 765,
+      "kalender": "https://steptrafikkskole.tabs.no/kalender",
+      "kursoversikt": "https://steptrafikkskole.tabs.no/kursoversikt"
+    }
+  },
+  "kurs": [
+    { "avdeling": "drammen", "klasse": "TG", "navn": "Trafikalt grunnkurs m/førstehjelp", "start": "2026-08-10T14:00", "slutt": "2026-08-10T16:30", "pris": 1800, "plasser": "3+" },
+    { "avdeling": "royken",  "klasse": "TG", "navn": "Trafikalt grunnkurs u/trafikant i mørket", "start": "2026-08-10T14:30", "slutt": "2026-08-10T17:00", "pris": 2100, "plasser": "3+" },
+    { "avdeling": "drammen", "klasse": "TG", "navn": "Førstehjelp", "start": "2026-08-11T14:00", "slutt": "2026-08-11T17:15", "pris": 850, "plasser": 2 },
+    { "avdeling": "drammen", "klasse": "A2", "navn": "Grunnkurs MC", "start": "2026-08-11T17:30", "slutt": "2026-08-11T19:45", "pris": 1400, "plasser": "3+" },
+    { "avdeling": "drammen", "klasse": "A",  "navn": "Grunnkurs MC", "start": "2026-08-11T17:30", "slutt": "2026-08-11T19:45", "pris": 1400, "plasser": "3+" },
+    { "avdeling": "royken",  "klasse": "TG", "navn": "Trafikant i mørket", "start": "2026-10-19T18:00", "slutt": "2026-10-19T20:15", "pris": 2000, "plasser": "3+" },
+    { "avdeling": "drammen", "klasse": "TG", "navn": "Trafikant i mørket", "start": "2026-10-21T18:00", "slutt": "2026-10-21T20:15", "pris": 2000, "plasser": 1 }
+  ]
+}
